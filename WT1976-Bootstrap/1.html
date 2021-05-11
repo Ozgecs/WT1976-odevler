@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!--Font awasome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>WT1976-Bootstrap-Odevi</title>
+</head>
+<style>
+    .border {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    body {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .gray {
+        background-color: rgba(221, 220, 220, 0.466);
+    }
+
+    .height {
+        height: 250px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white" href="#">Ödev</a>
+    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted text-white" href="#">Hakkında</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted text-white" href="#">İletişim</a>
+                </li>
+            </ul>
+            <div>
+                <button type="button" class="btn text-white">Kayıt Ol</button>
+                <button type="button" class="btn text-white mx-2">Giriş</button>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control" type="search" placeholder="Ara" aria-label="Search">
+                <button type="button" class="btn" style="background-color: grey;">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div class="row mt-3">
+
+            <div class="col-lg-8">
+                <div class="card card-header gray height text-dark">
+                    <div class="card-img-overlay mt-5">
+                        <h2 class="card-title">Web Kampı-Bootstrap 4</h2>
+                        <p class="card-text">Bootstrap ile şık, modern ve güzel arayüzler geliştiryorum.</p>
+                    </div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel height slide mt-3" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active height">
+                            <img src="./img/a.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bootstrap 4</h5>
+                                <p>Yaparak öğreniyorum</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item height">
+                            <img src="./img/b.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bootstrap 4</h5>
+                                <p>Yaparak öğreniyorum</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item height">
+                            <img src="./img/c.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bootstrap 4</h5>
+                                <p>Yaparak öğreniyorum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card card-header gray my-3 text-dark">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div>
+                                <img src="./img/a1.png" class="card-img-top w-50" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zengin Temalar</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <img src="./img/a2.png" class="card-img-top w-50" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Responsive Tasarım</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <img src="./img/a3.png" class="card-img-top w-50" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hızlı Tasarım</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+
+                <div class="card">
+                    <div class="border card-header container p-2">
+                        <h5 class="text-muted">Üye Girişi</h5>
+                        <span>
+                            <i class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <form class="container my-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control w-100" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Parola</label>
+                            <input type="password" class="form-control w-100" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Beni Hatırla</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+                    </form>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="border card-header container p-2">
+                        <h5 class="text-muted">Menü</h5>
+                        <span>
+                            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span>
+                                <i class="fa fa-home mr-1" aria-hidden="true"></i>
+                            </span>
+                            Anasayfa
+                        </li>
+                        <li class="list-group-item">
+                            <span>
+                                <i class="fa fa-code mr-1" aria-hidden="true"></i>
+                            </span>
+                            Örnekler
+                        </li>
+                        <li class="list-group-item">
+                            <span>
+                                <i class="fa fa-cubes mr-1" aria-hidden="true"></i>
+                            </span>
+                            Bileşenler
+                        </li>
+                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                            <span>
+                                <i class="fa fa-gavel mr-1" aria-hidden="true"></i>
+                                Temalar
+                            </span>
+
+                            <span class="badge badge-pill badge-danger">YENİ!</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="border card-header container p-2">
+                        <h5 class="text-muted">Öne Çıkan Temalar</h5>
+                        <span>
+                            <i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="m-2">
+                            <img src="./img/a3.png" class="w-75" alt="min1 img">
+                        </div>
+                        <div class="m-2">
+                            <img src="./img/a2.png" class="w-75" alt="min1 img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light text-center mt-5 text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="text-muted">Her hakkı saklıdır © 2021</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
